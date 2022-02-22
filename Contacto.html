@@ -1,0 +1,66 @@
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shalimar&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+/>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <nav>
+        <div class="parentlist">
+            <div class="studio">
+                <header class="Nombre">
+                    <h1>Taty Quintana Design Studio</h1>
+                </header>
+            </div>
+                <ul>
+                    <li> <a href="index.html">Sobre mí</a></li>
+                    <li> <a href="Servicios.html">Servicios</a></li>
+                    <li> <a href="Portfolio.html">Proyectos</a></li>
+                    <li> <a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+    </nav>    
+    <div class="contacto">
+        <section id="contacto">
+            <h2 class="contacttitle">Contacto</h2>
+            <h3>Sigamos en contacto!</h3>
+            <form action="Enviar-consulta.php" method="post" enctype="multipart/form-data">
+                <div class="campos">
+                    <label for="nombres">Nombre*</label>
+                    <input type="text" name="nombres" id="nombres" placeholder="Campo obligatorio" required>
+                </div>
+                <div class="campos">
+                    <label for="email"> Correo electrónico*</label>
+                    <input type="email" name="email" id="email" placeholder="Completar e-mail">
+                </div>
+                <div class="campos">
+                    <label for="mensaje"> Consulta/mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" maxlength="750" placeholder="Deja tu consulta o mensaje"></textarea>
+                </div>
+                    <button type="submit" value="enviar">Enviar</button>
+        </section>
+    </div> 
+    <footer>
+        <div class="copy">
+            <h5>Taty Quintana Design Studio - Buenos Aires, Argentina - All rights reserved ©</h5>
+            <a href="https://www.instagram.com/taty_quintana/" target="new"><img src="img/LogoInstagram.svg" alt="ig" width="30" height="30"></a>
+            <a href="https://www.linkedin.com/in/quintana-tatiana/" target="new"><img src="img/LogoLinkedIn.svg" alt="in" width="30" height="30"></a>
+            <a href="https://www.behance.net/tatianaquintana" target="new"><img src="img/LogoBehance.svg" alt="Be" width="30" height="30"></a>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</body>
+</html>
